@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('blogs', BlogController::class);
+Route::resource('blog', BlogController::class);
