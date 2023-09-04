@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\BlogController;
-use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -22,4 +21,4 @@ Route::get('/', function () {
 
 Route::resource('blogs', BlogController::class);
 
-Route::resource('products', ProductController::class);
+Route::resource('products', Produc::class);
